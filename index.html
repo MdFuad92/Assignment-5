@@ -4,11 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Honk&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
+<!-- banner and nav section -->
     <header>
-        <h1>hello</h1>
+        <div class="lg:flex lg:justify-around lg:mt-6  "> 
+            <h1 class="font-['Raleway'] font-bold text-3xl">P-Ticket</h1>
+            <ul class="lg:flex justify-center items-center gap-7 font-['Raleway'] cursor-pointer  ">
+                <li class="hover:text-green-600">Home</li>
+                <li class="hover:text-green-600">About</li>
+                <li class="hover:text-green-600">Destination</li>
+                <li class="hover:text-green-600" >Search</li>
+            </ul>
+            <button class="btn btn-warning bg-[#1DD1001A] border-none w-24 hover:bg-green-500"><img src="./images/bus-icon.png" alt="">Bus</button>
+        </div>
+        <div class="lg:flex lg:justify-center lg:mt-8">
+            <div class="hero w-[1100px] h-[500px] rounded-3xl" style="background-image: url(./images/banner.png);">
+           
+                <div class="hero-content text-center text-neutral-content text-white">
+                  <div class=" w-[520px] "> 
+                    <h1 class="mb-5 text-5xl font-bold text-center ">End-to-End Travel with <span class="text-[#1DD100]">P Paribahan</span></h1>
+                    <p class="mb-5 text-center">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                 
+                    <button class="btn btn-active border-none hover:bg-[#1DD100] bg-[#1DD100] text-[#030712] p-3 rounded-xl font-['Raleway'] font-bold w-36 hover:bg-none ">Bus Tickets</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+       
     </header>
+   
+    <main>
+         <!-- first main section -->
+        <div class="font-['Raleway'] font-bold text-2xl flex justify-center mt-24 mb-9" ><h1>Best offers for you</h1>
+        </div>
+        
+        
+       <div class="flex justify-center gap-7 mb-16">
+        <!-- coupon 1 --> 
+        <div class="bg-[#FFBF0F] w-[573px] h-[220px] rounded-l-xl rounded-r-xl p-14 ">
+        <div class="flex flex-col gap-2">
+        <h2 class="font-['Raleway'] font-bold text-4xl  relative">15% OFF</h2><p class="relative font-['Raleway'] font-bold text-base  ">on your next purchase</p><p class="font-['Raleway'] font-bold text-sm text-[#03071280]">use by January 2024</p>
+        
+    </div>
+    <div class="flex flex-col justify-center  relative left-96 bottom-24  ">
+        <h2 class="font-['Raleway'] font-bold text-3xl  ">NEW<sub>15</sub></h2>
+        <p class="font-semibold text-lg text-[#03071280]">coupon code</p>
+    </div>
+   
+    <img class="relative left-[300px] bottom-[220px] "  src="./images/cupon-devider.png" alt="">
+    
+</div>
+<!-- coupon 2 -->
+        
+<div class="bg-[#F78C9C] w-[573px] h-[220px] rounded-l-xl rounded-r-xl p-14 ">
+        <div class="flex flex-col gap-2">
+        <h2 class="font-['Raleway'] font-bold text-4xl  relative">20% OFF</h2><p class="relative font-['Raleway'] font-bold text-base  ">on your next purchase</p><p class="font-['Raleway'] font-bold text-sm text-[#03071280]">use by January 2024</p>
+        
+    </div>
+    <div class="flex flex-col justify-center  relative left-[356px] bottom-24  ">
+        <div class="flex justify-normal items-center gap-2"> <h2 class="font-['Raleway'] font-bold text-3xl   ">Couple</h2><sub class="font-['Raleway'] font-bold text-xl">20</sub></div>
+       
+        <p class="font-semibold text-lg text-[#03071280]">coupon code</p>
+    </div>
+   
+    <img class="relative left-[300px] bottom-[220px] "  src="./images/cupon-devider.png" alt="">
+    
+</div>
+     
+</div>
+<div class="flex justify-center">
+    <button class="btn  btn-warning hover:border-green-500 border-green-500 hover:bg-white bg-white font-['Raleway'] font-bold mb-24">See All Offers</button>
+</div>
+
+
+
+<div class="min-h-screen min-w-screen bg-[#F7F8F8] rounded-tl-[80px] rounded-tr-[80px] border-t-2  border-green-500">
+    <div class="flex justify-center mt-12">
+        <h1 class="font-['Raleway'] font-bold text-3xl">P.H Pariapahan</h1>
+        
+    </div>
+    <div class="flex justify-center mt-5"><p class="font-['Raleway'] font-semibold text-base text-[#03071299] text-center">Yes, you can run unit tests and view the results directly within the app. The integrated <br>testing features allow for a streamlined .</p></div>
+<!-- BUS TICKET -->
+            
+<div class=" relative left-40  bg-[#FFFF] w-[903px] h-[418px] rounded-l-xl rounded-r-xl p-14 mt-5  ">
+
+    
+    <div class="flex justify-between  ">
+        <div class="flex justify-start gap-3">
+            <img src="./images/bus-logo.png" alt="">
+            <h3 class="font-['Raleway'] font-bold text-xl text-[#030712]">Greenline Paribahan <br><span class="text-base font-['Raleway'] font-semibold text-[#03071299]">Coach-009-WEB ! AC_Business</span></h3>
+        </div>
+       <div >
+        <button class="btn  bg-[#1DD1001A] border-none w-44  text-[#1DD100]"><img src="./images/seat-green.png " alt="">40 seats left</button>
+        
+            
+            
+
+       </div>
+       <div>
+        <h2 class="">550tk</h2>
+       </div>
+       
+        
+
+    </div>
+
+   
+
+
+ 
+
+</div>
+
+
+</div>
+
+    </main>
+    <footer>
+        
+    </footer>
     
 </body>
 </html>
